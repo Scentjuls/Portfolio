@@ -1,0 +1,1125 @@
+body {
+  margin: 0;
+  padding: 0; 
+  font-family: 'calibri';
+
+}
+.nav ul {
+  list-style: none;
+  background-color: #000;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+}
+
+/* Option 1 - Display Inline */
+.nav li {
+  display: inline-block;
+  margin-right: -4px;
+}
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+.nav a:hover {
+  color:#e7038e;
+}
+.home{
+  padding-top:6%;
+  color:#fff;
+  height:700px;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+  background-repeat:no-repeat;
+  background: url('/design1.jpg') no-repeat;
+  background-color: linear-gradient(to right, rgba(0,0,0,2.0),rgba(0,0,0,1.0),rgba(0,0,0,0.2));
+}
+
+.margin {
+  margin-top:0px;
+  margin-left:3%;
+}
+.wait {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  margin-left:3%;
+ }
+
+.long {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s; 
+  margin-left:3%;
+}
+.horizontal {
+  border-top: 2px solid #ffe;
+  width: 75%;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  margin-top: 4%; 
+}
+
+.stay {
+  font-size: 25px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  margin-top: 4%; 
+}
+.caret {
+  text-align: center;
+  margin-top:15px;
+}
+.caret:active {
+  color:#551a8b;
+}
+
+#projects {
+  height: 1200px; 
+  margin-top:20px;
+  background: #fffff9
+}
+
+.projects {
+  text-align: center;
+  margin:0;
+  font-size: 40px;
+
+ }
+
+.projects h1 {
+  font-size: 24px;
+  color: #032f3e;
+  margin:0px;
+ }
+.horizontal-rule {
+  display:none;
+}
+.grid-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  flex-direction: row; 
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  margin-left:6%;
+  margin-right:6%;
+  width: 1200px;
+  margin-top:4%;
+}
+.col {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.col-left {
+  -webkit-box-ordinal-group:-1;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+}
+.col-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Aligner-item {
+  width: 60%;
+}
+.heading {
+  margin:0;
+  font-size:25px;
+}
+.description {
+  line-height: 1.6;
+  margin:0;
+  padding:0;
+  font-size:20px;
+}
+.col img {
+  height:294px;
+  width:600px;
+  border-radius:5px;
+  box-shadow: 0px 9px 23px -4px rgba(0,0,0,0.66);
+}
+   #contact {
+     height: 550px;
+   }
+   .touch{
+     text-align:center;
+   }
+   .contact {
+     text-align:center;
+    color: #000;
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .twitter {
+    margin:70px;
+    cursor: pointer;
+    text-align:center;
+  }
+ .twitter p:hover {
+   color:#0084b4;
+ }
+ .big {
+   color:#000;
+ }
+ .text {
+   color:#000;
+   
+ }
+ .social a {
+  text-decoration: none;
+ }
+ .big.fab.fa-twitter.fa-3x:hover {
+  font-size:6em;
+  transition: all .2s ease-in-out;
+  transition: 1s ease-out;
+  color:#0084b4;
+ }
+  .envelope {
+    margin:70px;
+    cursor: pointer;
+    text-align:center;
+  }
+  .big.far.fa-envelope.fa-3x:hover {
+    font-size:6em;
+    transition: 1s ease-out;
+    color:red;
+   }
+  .envelope p:hover {
+    color: red;
+  }
+  .github {
+    margin:70px;
+    cursor: pointer;
+    text-align:center;
+  }
+  .big.fab.fa-github.fa-3x:hover {
+    font-size:6em;
+    transition: 1s ease-out;
+   }
+   .codepen {
+    margin:70px;
+    cursor: pointer;
+    text-align:center;
+  }
+  .big.fab.fa-codepen.fa-3x:hover {
+    font-size:6em;
+    transition: 1s ease-out;
+   }
+  footer {
+    height: 35px;
+    background-color: #032f3e;
+    color: #f8f9fb;
+    text-align: center;
+    padding-top: 15px;
+   }
+  
+  .purple {
+    color:#e7038e;
+  }
+  
+  .darkblue {
+    color: darkblue; 
+  }
+  
+  .black i:hover {
+    color: #000; 
+  }
+  .footer {
+    color: #e25555;
+  }
+  @media screen and (max-width:320px){
+    .nav li {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.0em;
+      line-height: 40px;
+      height: 40px;
+    }
+    .home{
+      height:500px;
+      padding-left:12px;
+    }
+   
+    .margin {
+      font-size: 20px;
+    }
+    .wait {
+      font-size: 18px;
+    }
+    .long{
+      font-size: 18px; 
+    }
+    .stay {
+      font-size: 18px;
+      width:100%;
+    }
+    .caret {
+      display:none;
+    }
+    #projects {
+      height:1450px; 
+    }
+   
+    #contact {
+      height:500px;
+    }
+    .touch{
+      text-align:center;
+      font-size:22px;
+    }
+    .contact {
+      width: 100%;
+      }
+   .twitter {
+    margin:10px;
+   }
+  .twitter p:hover {
+    color:#0084b4;
+  }
+  .big.fab.fa-twitter.fa-3x:hover {
+   font-size:6em;
+   transition: all .2s ease-in-out;transition: 1s ease-out;
+   color:#0084b4;
+  }
+   .envelope {
+    margin:10px;
+   }
+   .big.far.fa-envelope.fa-3x:hover {
+     font-size:6em;
+     transition: 1s ease-out;
+     color:red;
+    }
+   .envelope p:hover {
+     color: red;
+   }
+   .github {
+    margin:10px;
+   }
+   .big.fab.fa-github.fa-3x:hover {
+     font-size:6em;
+     transition: 1s ease-out;
+    }
+    .codepen {
+      margin:10px;
+     }
+     .big.fab.fa-codepen.fa-3x:hover {
+      font-size:6em;
+      transition: 1s ease-out;
+     }
+    .grid-flex {
+      width:  320px;
+        display: -webkit-flex;
+        -webkit-flex-direction: column;
+        flex-direction: column; 
+        margin:0;
+       }
+      .col {
+        order:vertical;
+      }
+      .col-left {
+        -webkit-box-ordinal-group:0;
+        -webkit-order: 0;
+        -ms-flex-order: 0;
+        order: 0;
+      }
+      .col-text div p {
+        padding: 0.4em;
+      }
+      .Aligner-item {
+        width: 90%;
+      }
+      .col-text {
+        margin:10px;
+      }
+      .col img {
+        height: 169px;
+        width:300px;
+       position: relative;
+       left:12px;
+      }
+      .heading {
+        margin:0;
+        font-size:20px;
+      }
+      .description {
+        line-height: 1.3;
+        margin:0;
+        padding:0;
+        
+      }
+  }
+@media screen and (min-width:321px) and (max-width: 480px) {
+  .nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom:0;
+  }
+  .home{
+    height:400px;
+    padding-left:12px;
+  }
+  
+  .margin {
+    font-size: 20px;
+  }
+  .wait {
+    font-size: 18px;
+  }
+  .long{
+    font-size: 18px; 
+  }
+  .stay {
+    font-size: 18px;
+    width:100%;
+  }
+  .caret {
+    display:none;
+  }
+  #projects {
+    height:1450px; 
+  }
+ 
+  #contact {
+    height:500px;
+  }
+  .touch{
+    text-align:center;
+    font-size:22px;
+  }
+  .contact {
+    width: 95%;
+    }
+ .twitter {
+  margin:10px;
+ }
+.twitter p:hover {
+  color:#0084b4;
+}
+.big.fab.fa-twitter.fa-3x:hover {
+ font-size:6em;
+ transition: all .2s ease-in-out;transition: 1s ease-out;
+ color:#0084b4;
+}
+ .envelope {
+  margin:10px;
+ }
+ .big.far.fa-envelope.fa-3x:hover {
+   font-size:6em;
+   transition: 1s ease-out;
+   color:red;
+  }
+ .envelope p:hover {
+   color: red;
+ }
+ .github {
+  margin:10px;
+ }
+ .big.fab.fa-github.fa-3x:hover {
+   font-size:6em;
+   transition: 1s ease-out;
+  }
+  .codepen {
+    margin:10px;
+   }
+   .big.fab.fa-codepen.fa-3x:hover {
+    font-size:6em;
+    transition: 1s ease-out;
+   }
+  .grid-flex {
+    width:  320px;
+      display: -webkit-flex;
+      -webkit-flex-direction: column;
+      flex-direction: column; 
+    
+     }
+    .col {
+      order:vertical;
+    }
+    .col-left {
+      -webkit-box-ordinal-group:0;
+      -webkit-order: 0;
+      -ms-flex-order: 0;
+      order: 0;
+    }
+    .col-text div p {
+      padding: 0.5em;
+    }
+    .Aligner-item {
+      width: 90%;
+    }
+    .col img {
+      height: 169px;
+      width:300px;
+      position: relative;
+       left:20px;
+    }
+    .heading {
+      margin:0;
+      font-size:20px;
+    }
+    .description {
+      line-height: 1.3;
+      margin:0;
+    }
+}
+@media screen and (min-width: 481px) and (max-width:491px){
+  .nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom:0;
+  }
+  .home{
+    padding-left:12px;
+    height:500px;
+  }
+  .margin {
+    font-size: 25px;
+  }
+  .wait {
+    font-size: 23px;
+  }
+  .long{
+    font-size: 23px;
+  }
+  .stay {
+    font-size: 23px;
+    width:79%;
+  }
+
+  #projects {
+    height:1450px; 
+  }
+
+  #contact {
+    height:400px;
+  }
+  .twitter {
+    margin:20px;
+   }
+   .envelope {
+    margin:20px;
+   }
+   .github {
+    margin:20px;
+   }
+   .codepen {
+     margin: 20px;
+   }
+   .grid-flex {
+    width:  320px;
+      display: -webkit-flex;
+      -webkit-flex-direction: column;
+      flex-direction: column; 
+     }
+    .col {
+      order:vertical;
+    }
+    .col-left {
+      -webkit-box-ordinal-group:0;
+      -webkit-order: 0;
+      -ms-flex-order: 0;
+      order: 0;
+    }
+    .col-text div p {
+      padding: 0.6em;
+    }
+    .Aligner-item {
+      width: 90%;
+    }
+    .col img {
+      height: 169px;
+      width:300px;
+      position: relative;
+       left:50px;
+    }
+    .heading {
+      margin:0;
+      font-size:20px;
+    }
+    .description {
+      line-height: 1.6;
+      margin:0;
+    }
+}
+@media screen and (min-width: 492px) and (max-width:629px){
+  .nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom:0;
+  }
+  .home{
+    padding-left:12px;
+    height:500px;
+  }
+  .margin {
+    font-size: 25px;
+  }
+  .wait {
+    font-size: 23px;
+  }
+  .long{
+    font-size: 23px;
+  }
+  .stay {
+    font-size: 23px;
+    width:79%;
+  }
+  .caret  {
+    display:none;
+  }
+  #projects {
+    height:1650px; 
+  }
+
+  #contact {
+    height:400px;
+  }
+  .twitter {
+    margin:20px;
+   }
+   .envelope {
+    margin:20px;
+   }
+   .github {
+    margin:20px;
+   }
+   .codepen {
+    margin:20px;
+   }
+   .grid-flex {
+    width:  320px;
+      display: -webkit-flex;
+      -webkit-flex-direction: column;
+      flex-direction: column; 
+      margin-left:17%;
+     }
+    .col {
+      order:vertical;
+    }
+    .col-left {
+      -webkit-box-ordinal-group:0;
+      -webkit-order: 0;
+      -ms-flex-order: 0;
+      order: 0;
+    }
+    .col-text div p {
+      padding: 0.6em;
+    }
+    .Aligner-item {
+      width: 100%;
+      position:relative;
+      left:15%;
+    }
+    .col img {
+      height: 169px;
+      width:300px;
+      position: relative;
+       left:50px;
+    }
+    .heading {
+      margin:0;
+      font-size:20px;
+    }
+    .description {
+      line-height: 1.6;
+      margin:0;
+    }
+   
+}
+@media screen and (min-width: 630px) and (max-width:767px){
+  .nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom:0;
+  }
+  .home{
+    padding-left:12px;
+    height:500px;
+  }
+  .margin {
+    font-size: 25px;
+  }
+  .wait {
+    font-size: 23px;
+  }
+  .long{
+    font-size: 23px;
+  }
+  .stay {
+    font-size: 23px;
+    width:79%;
+  }
+
+  #projects {
+    height:1600px; 
+  }
+
+  #contact {
+    height:400px;
+  }
+  .twitter {
+    margin:20px;
+   }
+   .envelope {
+    margin:20px;
+   }
+   .github {
+    margin:20px;
+   }
+   .codepen {
+    margin:20px;
+   }
+   .grid-flex {
+    width:  320px;
+      display: -webkit-flex;
+      -webkit-flex-direction: column;
+      flex-direction: column; 
+      margin-left:24%;
+     }
+    .col {
+      order:vertical;
+    }
+    .col-left {
+      -webkit-box-ordinal-group:0;
+      -webkit-order: 0;
+      -ms-flex-order: 0;
+      order: 0;
+    }
+    .col-text div p {
+      padding: 0.6em;
+    }
+    .Aligner-item {
+      width: 100%;
+      position:relative;
+      left:15%;
+    }
+    .col img {
+      height: 169px;
+      width:300px;
+      position: relative;
+       left:50px;
+    }
+    .heading {
+      margin:0;
+      font-size:20px;
+    }
+    .description {
+      line-height: 1.6;
+      margin:0;
+   
+    }
+}
+@media screen and (min-width:768px) and (max-width:787px){
+  .nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom:0;
+  }
+  .home{
+    height:510px;
+    padding-left:12px;
+  }
+  .margin {
+    font-size: 25px;
+  }
+  .wait {
+    font-size: 25px;
+  }
+  .long{
+    font-size: 25px;
+  }
+  .stay {
+    font-size: 25px;
+    width:70%;
+  }
+  #projects {
+    height:800px; 
+  }
+  .caret {
+    margin-top:0px;
+  }
+  #contact {
+    height:400px;
+  }
+  .twitter {
+    margin:30px;
+   }
+   .envelope {
+    margin:30px;
+   }
+   .github {
+    margin:30px;
+   }
+   .codepen {
+    margin:30px;
+   }
+   .touch {
+     text-align: center;
+   }
+   .grid-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    flex-direction: row; 
+    -webkit-flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    margin-left:8%;
+    margin-right:8%;
+    width:700px;
+    margin-top:4%;
+  }
+  .col {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .col-left {
+    -webkit-box-ordinal-group:-1;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  .col-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Aligner-item {
+    width: 85%;
+   }
+  .col img {
+    height:169px;
+    width:300px;
+     }
+     .heading {
+      margin:0;
+      font-size:20px;
+    }
+    .description {
+      line-height: 1.2;
+      margin:0;
+      padding:0;
+    }
+  }
+  @media screen and (min-width:788px) and (max-width:900px){
+  .nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom:0;
+  }
+  .home{
+    height:510px;
+    padding-left:12px;
+  }
+  .margin {
+    font-size: 25px;
+  }
+  .wait {
+    font-size: 25px;
+  }
+  .long{
+    font-size: 25px;
+  }
+  .stay {
+    font-size: 25px;
+    width:70%;
+  }
+  .caret {
+    margin-top:9px;
+  }
+  #projects {
+    height:850px; 
+  }
+
+  #contact {
+    height:400px;
+  }
+  .twitter {
+    margin:30px;
+   }
+   .envelope {
+    margin:30px;
+   }
+   .github {
+    margin:30px;
+   }
+   .codepen {
+    margin:30px;
+   }
+   .touch {
+     text-align: center;
+   }
+   .grid-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    flex-direction: row; 
+    -webkit-flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    margin-left:11%;
+    width:700px;
+    margin-top:4%;
+  }
+  .col {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .col-left {
+    -webkit-box-ordinal-group:-1;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  .col-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Aligner-item {
+    width: 100%;
+   }
+  .col img {
+    height:169px;
+    width:300px;
+     }
+    }
+    @media screen and (min-width:901px) and (max-width:1023px){
+      .nav li {
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.2em;
+        line-height: 40px;
+        height: 40px;
+        border-bottom:0;
+      }
+      .home{
+        height:510px;
+        padding-left:12px;
+      }
+      .margin {
+        font-size: 25px;
+      }
+      .wait {
+        font-size: 25px;
+      }
+      .long{
+        font-size: 25px;
+      }
+      .stay {
+        font-size: 25px;
+        width:70%;
+      }
+      #projects {
+        height: 1100px; 
+      }
+    
+      #contact {
+        height:400px;
+      }
+      .twitter {
+        margin:30px;
+       }
+       .envelope {
+        margin:30px;
+       }
+       .github {
+        margin:30px;
+       }
+       .codepen {
+        margin:30px;
+       }
+       .touch {
+         text-align: center;
+       }
+       .grid-flex {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        flex-direction: row; 
+        -webkit-flex-direction: row;
+        -webkit-flex-wrap: wrap;
+        -webkit-justify-content: space-around;
+        margin-left:17%;
+        width:700px;
+        margin-top:4%;
+      }
+      .col {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+      }
+      .col-left {
+        -webkit-box-ordinal-group:-1;
+        -webkit-order: -1;
+        -ms-flex-order: -1;
+        order: -1;
+      }
+      .col-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .Aligner-item {
+        width: 75%;
+       }
+      .col img {
+        height:169px;
+        width:300px;
+         }
+        
+    }
+@media screen and (min-width:1024px) and (max-width:1200px){
+  .nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom:0;
+  }
+  .home{
+    height:520px;
+    padding-left:12px;
+  }
+  .margin {
+    font-size: 25px;
+  }
+  .wait {
+    font-size: 25px;
+  }
+  .long{
+    font-size: 25px;
+  }
+  .stay {
+    font-size: 25px;
+    width:60%;
+  }
+  #projects {
+    height:950px; 
+  }
+
+  #contact {
+    height:400px;
+  }
+  .twitter {
+    margin:30px;
+   }
+   .envelope {
+    margin:30px;
+   }
+   .github {
+    margin:30px;
+   }
+   .codepen {
+    margin:30px;
+   }
+   .touch {
+     text-align: center;
+   }
+   .grid-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    flex-direction: row; 
+    -webkit-flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    margin-left:11%;
+    width:800px;
+    margin-top:4%;
+  }
+  .col {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .col-left {
+    -webkit-box-ordinal-group:-1;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  .col-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Aligner-item {
+    width: 85%;
+   }
+  .col img {
+    height:205px;
+    width:400px;
+   
+     }
+    }
+@media screen and (min-width:1201px) and (max-width:1366px){
+
+}
